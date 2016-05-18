@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node server.js"
   },
+  "main": "server.js",
   "author": "Fizmat",
   "license": "ISC"
 }

@@ -7,7 +7,7 @@ http.createServer((req, res) => {
 
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.end('Hello World\n');
-}).listen(server_port);
+}).listen(server_port, server_ip_address);
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
